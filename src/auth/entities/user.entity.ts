@@ -1,10 +1,3 @@
-import {
-  IsBoolean,
-  IsEmail,
-  IsString,
-  MaxLength,
-  MinLength,
-} from 'class-validator';
 import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity('users')
@@ -15,7 +8,6 @@ export class User {
   @Column('text', {
     unique: true,
   })
-  @IsEmail()
   email: string;
 
   @Column('text')
