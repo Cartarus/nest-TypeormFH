@@ -20,15 +20,17 @@ npm i
 docker compose up -d
 ```
 
-6. Ejecutar Seed
+6. levantar el modo desarrollo
+
+```
+npm run start:dev
+```
+
+7. Ejecutar Seed
 
 ```
 localhost:3000/api/seed
 ```
 
-7. levantar el modo desarrollo
 
-```
-npm run start:dev
-```
 
